@@ -114,8 +114,8 @@ describe('tarea edmoza', function() {
   });
   it('y el 7 la 3era', function() {
     test
-      .value(req)
-      .hasHeaderJson(); // The same test 7
+      .number(problema(7))
+      .is(7); // The same test 7
   });
   it('69', function() {
     test
